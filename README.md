@@ -1,2 +1,10 @@
-# isolator
-this is a current input and current ouput isolator.
+> 这是一个电流入电流出的隔离器，特点是符合SIL3功能安全
+
+## 什么是功能安全？
+
+## 功能安全隔离器特点
+
+## 此项目开发的难点
+
+## 总结
+
