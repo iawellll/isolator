@@ -41,11 +41,11 @@
 
 2.2 在setting.gradle里添加  maven { url 'https://www.jitpack.io' } ，这是第三方库仓库。
 
- ![image4](E:\android\docs\image\image4.png)
+ ![image4](/硬件/image4.png)
 
 2.3 在buid.gradle(:app)里添加 implementation 'com.github.mik3y:usb-serial-for-android:3.4.0'。
 
- ![image5](E:\android\docs\image\image5.png)
+ ![image5](/硬件/image5.png)
 
 2.4 [github.com](https://github.com/mik3y/usb-serial-for-android) 这个网站有用
 
@@ -63,13 +63,13 @@
 
 3.2  在dos命令行输入adb tcpip命令(例如:adb tcpip 9999);    
 
-  ![image1](E:\android\docs\image\image2.png)
+  ![image1](/硬件/image2.png)
 
 3 .3 断开USB数据线(数据线和设备断开连接);
 
 3.4 dos中输入adb connect <host>[:<port>]命令(例如:adb connect 192.168.1.112:9999)。
 
- ![image3](E:\android\docs\image\image3.png)
+ ![image3](/硬件/image3.png)
 
 3.5 命令行若显示 connected to 192.168.1.112:9999 恭喜你!连接成功了,可以开始无线调试啦!
 
